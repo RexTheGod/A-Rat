@@ -100,5 +100,5 @@ def contol():
         print("\n[!] CTRL+C Detect Exiting Tools . . .")
         sleep(2)
         sys.exit()
-if __name__ == "__main__":
+if __name__ == "__main__": 
     contol()
